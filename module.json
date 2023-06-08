@@ -1,0 +1,28 @@
+{
+  "name": "sf-biohacker-helper",
+  "title": "Starfinder Biohacker Helper",
+  "description": "Handful of macros and items to make playing a biohacker slightly simpler",
+  "authors": [ { "name": "Paul Shipley" } ],
+  "relationships": { "systems": [ { "id": "sfrpg", "type":  "system" } ] },
+  "version": "1.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "packs": [
+    {
+      "name": "biohacker-helper-items",
+      "label": "Biohacker Items",
+      "path": "packs/items.db",
+      "system": "sfrpg",
+      "type": "Item"
+    },
+    {
+      "name": "biohacker-helper-macros",
+      "label": "Biohacker Macros",
+      "path": "packs/macros.db",
+      "system": "sfrpg",
+      "type": "Macro"
+    }
+    ]
+  }
